@@ -1,0 +1,74 @@
+body {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+}
+
+.stApp {
+    background: transparent;
+}
+
+div[data-testid="stTextArea"] textarea {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    color: white;
+    border-radius: 15px;
+}
+
+.stButton button {
+    background: linear-gradient(45deg, #7c3aed, #2563eb);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+html, body, [class*="css"] {
+    color: white;
+}
+
+[data-testid="stAppViewContainer"]{
+    background: linear-gradient(
+        135deg,
+        #050816,
+        #0b1026,
+        #11162e
+    );
+}
+
+/* Remove top white header */
+
+header{
+    background: transparent !important;
+}
+
+/* Toolbar */
+
+[data-testid="stToolbar"]{
+    right: 2rem;
+}
+
+/* Main block */
+
+.block-container{
+    padding-top: 2rem;
+}
+
+/* Selectbox */
+
+.stSelectbox div[data-baseweb="select"]{
+    background: rgba(255,255,255,0.08);
+    border-radius: 12px;
+    color: white;
+}
+
+/* Text area */
+
+textarea{
+    color:white !important;
+}
+
+/* Labels */
+
+label{
+    color:white !important;
+    font-weight:600;
+}
